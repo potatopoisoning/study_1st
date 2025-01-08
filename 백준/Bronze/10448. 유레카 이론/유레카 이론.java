@@ -14,8 +14,8 @@ public class Main
     public static int eureka(int num){
     	
         for(int i = 1; i < 45; i++){
-            for(int j = 1; j < 45; j++){
-                for(int k = 1; k < 45; k++){
+            for(int j = i; j < 45; j++){
+                for(int k = j; k < 45; k++){
                     if(tn[i] + tn[j] + tn[k] == num) {
                     	return 1;
                     }
